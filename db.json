@@ -1,0 +1,56 @@
+{
+  "errors": [
+    {
+      "id": 1,
+      "code": "TIME_EXCEED",
+      "message": "Processing took longer than expected (over 12 hours) and did not finish"
+    },
+    {
+      "id": 2,
+      "code": "INSERT_FAILED",
+      "message": "We encountered an error while saving your file"
+    },
+    {
+      "id": 3,
+      "code": "PARSE_FAILED",
+      "message": "Something went wrong while reading your file"
+    },
+    {
+      "id": 4,
+      "code": "UN_SUPPORTED_FILE",
+      "message": "This file format is not supported"
+    },
+    {
+      "id": 5,
+      "code": "SYNC_LOCK_TIMEOUT",
+      "message": "Processing is taking longer due to another task running, please wait"
+    },
+    {
+      "id": 6,
+      "code": "SYNC_FAILED",
+      "message": "An error occurred while syncing your file"
+    },
+    {
+      "id": 7,
+      "code": "SYNC_TIMEOUT",
+      "message": "Syncing timed out while preparing the index"
+    },
+    {
+      "id": 8,
+      "code": "CREATE_INDEX_FAILED",
+      "message": "Failed to build the index for your file"
+    },
+    {
+      "id": 9,
+      "code": "FILE_WRONG_VERSION",
+      "message": "File version mismatch: cannot find the expected file in the index"
+    },
+    {
+      "id": 10,
+      "code": "CHUNK_FAILED",
+      "message": "We ran into an error while chunking your file content"
+    }
+  ]
+}
+
+login crainonprodwestus2003.azurecr.io -u CrAiNonProdWestus2003 -p +WwTNhGwuFlW7bd0CHV482nH+/MsN2U+yVrW34wH4a+ACRBX8JMV
